@@ -1,0 +1,237 @@
+.extra-btn {
+    width: max-content !important;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 7px 15px;
+    transition: none;
+    line-height: 1.8;
+    margin: 0;
+    float: right;
+    margin-bottom: 0;
+    border: 1px solid #ef2b7b;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ef2b7b;
+    height: 40px;
+}
+ul.threetab{
+    border-bottom: 1px solid #eff2f5;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+
+ul.threetab li button.active {
+    color: #000 !important;
+    border-radius: 0;
+    font-weight: 600;
+    border-bottom: 3px solid #f03380;
+    border-radius: 0;
+}
+
+
+ul.threetab li button {
+    width: 100%;
+    font-size: 16px;
+}
+
+/*switch*/
+
+.switch-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.switch-btn input[switch] {
+    display: none;
+}
+.switch-btn input[switch="bool"] + label {
+    background-color: #ee6562;
+    margin: 0;
+}
+
+.switch-btn input[switch] + label {
+    font-size: 1em;
+    line-height: 1;
+    width: 5.5rem;
+    height: 1.5rem;
+    background-color: #ddd;
+    background-image: none;
+    border-radius: 2rem;
+    padding: 0.16666667rem;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2) inset;
+    font-family: inherit;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+.switch-btn input[switch="bool"] + label:before {
+    color: #fff !important;
+}
+.switch-btn input[switch] + label:before {
+    text-transform: uppercase;
+    color: #b7b7b7;
+    content: attr(data-off-label);
+    display: block;
+    font-family: inherit;
+    font-family: FontAwesome, inherit;
+    font-weight: 500;
+    font-size: 0.6rem;
+    line-height: 1.22rem;
+    position: absolute;
+    right: 0.21666667rem;
+    margin: 0.21666667rem;
+    top: -1px;
+    text-align: center;
+    min-width: 1.66666667rem;
+    overflow: hidden;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+switch-btn input[switch] + label:after {
+    content: "";
+    position: absolute;
+    left: 0.16666667rem;
+    background-color: #f7f7f7;
+    box-shadow: none;
+    border-radius: 2rem;
+    height: 1.22rem;
+    width: 1.22rem;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+
+/*switch*/
+.border.border-dark.menu.menu-sub.menu-sub-dropdown.menu-column.menu-rounded.menu-gray-800.menu-state-bg-light-primary.fw-semibold.py-4.w-250px.fs-7.show {
+    padding: 15px 10px;
+    border: 1px solid #dddada !important;
+}
+.form-check {
+    margin-top: 2px !important;
+}
+.searchbar input[type="text"] {
+    border-radius: 5px;
+    height: 30px;
+    margin: 0;
+    background: #fef3f8;
+    border: 1px solid #ef2b7b;
+    width: 100%;
+    padding:5px;
+}
+.searchbar ~ .menu-item {
+    height: 180px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 12px 0;
+    padding-right: 0;
+}
+.view-pg th {
+    width: 200px;
+}
+.view-pg td {
+    width: 250px;
+}
+.imgs {
+    grid-column-gap: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 4px;
+}
+.imgs img {
+    width: 70px;
+    height: 60px;
+}
+.btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btns a .extra-btn {
+    width: 200px !important;
+    margin: 15px ;
+}
+#archive-modal h2, #unarchive-modal h2, .archive h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height:1.5;
+}
+.archive .modal-btn a, .unarchive .modal-btn a  {
+    display: flex;
+    width: 90% !important;
+    justify-content: center;
+}
+.btns a:hover .extra-btn {
+    color: #fff !important;
+    background: #ef2b7b !Important;
+}
+.btns a .extra-btn:hover  {
+    color: #fff;
+}
+.select-gst select {
+    border: none;
+}
+textarea {
+    resize: none !important;
+}
+.new-select-drop span.select2-selection {
+    background-color: #FEF3F8 !important;
+    border: none;
+    height: 43px;
+}
+.checkbx .inner-checkBox {
+    margin-right: 20px;
+}
+.notification-drop .selection span.select2-search {
+    width: 100%;
+}
+.notification-drop .selection span textarea {
+    background-color: transparent;
+        margin-top: 0 !important;
+}
+ul#select2-multiple-container {
+    margin: 0;
+    padding: 0;
+}
+.blue-view .image-input .image-input-wrapper {
+    height: 122px !important;
+    object-fit: cover;
+    background-size: contain;
+}
+span.select2-selection__arrow::before {
+    content: "";
+    position: absolute;
+    right: 7px;
+    top: 42%;
+    border-top: 5px solid #888;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+.select2-container--open span.select2-selection__arrow::before {
+    transform: rotate(-180deg);
+}
+.index_table button {
+    margin: 0 5px;
+}
+#exampleModalCentertwo .modal-header {
+    display: flex;
+    padding:  10px;
+    justify-content: end;
+}
+#exampleModalCentertwo textarea#post-meta-description {
+    margin-bottom: 25px;
+}
+span.text-small {
+    font-size: 12px;
+}
+
+svg.svg-inline--fa.fa-star {
+    color: #bfb9b9;
+}
+svg.svg-inline--fa.fa-star.checked {
+    color: orange;
+}
