@@ -11,7 +11,7 @@ return new class extends Migration
     /**
      * Created By: Pradyumn Dwivedi
      * Created at: 15 Jan 2024
-     * Use: Migration file for faq category
+     * Use: Migration file for faq category in faq module
      *
      * Run the migrations.
      */
